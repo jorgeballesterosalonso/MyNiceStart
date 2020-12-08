@@ -27,4 +27,14 @@
 <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
 <!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
     </style>
+
+    <style name="ButtonStraight" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/statelist</item>
+    </style>
+
+    <style name="ButtonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="strokeColor">@color/colorAccent</item>
+    </style>
 </resources>

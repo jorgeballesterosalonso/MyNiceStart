@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+/**
+ * Crea la actividad de logueo a la app
+ * @author Jorge Ballesteros
+ * @see SignUpActivity
+ */
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -18,6 +23,8 @@ public class LoginActivity extends AppCompatActivity {
         Button login = findViewById(R.id.btnLogin);
         TextView signup = findViewById(R.id.dontHaveAnAC);
 
+        //Creamos el onClickListener para el texto de signup
+
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,6 +32,8 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //Creamos el onClickListener para el botón de Login
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
