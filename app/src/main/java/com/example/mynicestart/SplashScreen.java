@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
+
 /**
  * Crea un Activity con una animación y arranca el login
  * @author Jorge Ballesteros
