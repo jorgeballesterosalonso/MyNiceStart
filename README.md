@@ -6,7 +6,7 @@ splash | Login
   **Signup**|**Main**
   ![](app/img/Signup.png)| ![](app/img/Main.png)
   **Main2**|**Main3**
-    ![](app/img/Main2.png)| ![](app/img/Main3.png)
+  ![](app/img/Main2.png)| ![](app/img/Main3.png)
   **Main4**|
-   ![](app/img/Main4.png)|
+  ![](app/img/Main4.png)|
 
